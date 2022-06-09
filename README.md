@@ -1,14 +1,19 @@
 # Koco
 
-ROS package for the Colaborative Robotic platform known as KoCo (Kolektor Cobot). This packege provides Publishers, Action Servers, Services and Launchfiles for controlling the KoCo in the ROS environment.
+Core ROS packages of the Flexible Control Framework for Industrial Robotic Applications, where Koco stands for "**K**oco **o**ffers **co**mpatibility".  
 
-Progress can be tracked in the [changelog file.](./CHANGELOG.md)
-
-Package overview
-----------------
+## Packages
 * `koco`: The meta package.
-* `koco_action_servers`: Various action servers to interact with the KoCo system.
-* `koco_core_flexbe_states`: The core FlexBE states to operate with the KoCo system.
-* `koco_nodes`: Nodes that provide additional functionality to the KoCo system.
-* `koco_services`: Nodes that expose services to the functionalities of the KoCo system.
-* `koco_utils`: A set of useful libraries that facilitate the development of the KoCo ROS stack.
+* `koco_core_flexbe_states`: High-level FlexBE states for composing complex behaviors, including:
+  * States to program robot motions
+  * States to interact with permanent storage
+* `koco_nodes`: Nodes that offer additional functionality of the Koco system:
+  * Interface to link the permanent storage (database) to TF
+* `koco_services`: Nodes that offer services to interact with the Koco system:
+  * Service for requesting and storing complex trajectory plans through MoveIt
+* `koco_utils`: A set of useful Python libraries that provide handy methods and classes for programming robotic tasks:
+  * Action interface template
+  * Pose and message conversions
+  * Geometric distances and averages
+  * TF and Database proxies
+  * ROS path resolution
