@@ -1,18 +1,6 @@
 # Koco Core Flexbe States
 This repository holds various core FlexBE states to operate with the KoCo system. It should not contain robot or use-case specific states.
 
-# Currently available states
-The currently available states will be listed here along with a short description of their functionality. Further documentation will be found elsewhere.
-
-## Anomaly Handler
-Triggers an anomaly and waits for resolve.
-
-## Anomaly Handler SetBool
-Extends Anomaly Handler with 2 setbool services called at the start and end of an anomaly.
-
-## Anomaly Handler Trigger
-Extends Anomaly Handler with 2 trigger services called at the start and end of an anomaly.
-
 ## Check digital input
 Checks digital input and outcomes its state.
 
@@ -51,10 +39,6 @@ Calls a desired service with TriggerString message type.
 
 ## Wait for digital input
 Waits for a digital input to hold a predefined value and outcomes true if yes or false if not.
-
-## Wait for machine status
-Waits for the MachineStatus topic to hold a desired state.
-
 
 # Adding new states
 
