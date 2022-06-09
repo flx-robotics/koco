@@ -2,6 +2,8 @@
 
 Core ROS packages of the Flexible Control Framework for Industrial Robotic Applications, where Koco stands for "**K**oco **o**ffers **co**mpatibility".  
 
+<img src="doc/koco.png" alt="koco" width="600"/>
+
 ## Packages
 * `koco`: The meta package.
 * `koco_core_flexbe_states`: High-level FlexBE states for composing complex behaviors, including:
