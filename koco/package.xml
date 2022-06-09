@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>koco</name>
+  <version>1.1.0</version>
+  <description>The KoCo platform meta package</description>
+
+  <maintainer email="blaz.potokar@airnamics.com">Blaz Potokar</maintainer>
+  <maintainer email="filip.grcar@airnamics.com">Filip Grcar</maintainer>
+  <maintainer email="gal.gorjup@airnamics.com">Gal Gorjup</maintainer>
+  <maintainer email="tadej.andrensek@airnamics.com">Tadej Andrensek</maintainer>
+  <maintainer email="timotej.gaspar@airnamics.com">Timotej Gaspar</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>koco_action_servers</exec_depend>
+  <exec_depend>koco_core_flexbe_states</exec_depend>
+  <exec_depend>koco_nodes</exec_depend>
+  <exec_depend>koco_services</exec_depend>
+  <exec_depend>koco_utils</exec_depend>
+
+  <export>
+     <metapackage/>
+  </export>
+</package>

@@ -1,0 +1,8 @@
+path: koco_core_flexbe_states.check_digital_input
+class: CheckDigitalInput
+
+params:
+  topic: "/non_existing_topic"
+  input_address: 1
+
+outcome: 'error'

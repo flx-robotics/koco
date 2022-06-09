@@ -1,0 +1,4 @@
+path: koco_core_flexbe_states.wait_for_digital_input
+class: WaitForDigitalInput
+
+import_only: True

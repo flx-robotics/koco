@@ -1,0 +1,4 @@
+path: koco_core_flexbe_states.service_set_outputs
+class: ServiceSetOutputs
+
+import_only: True

@@ -1,0 +1,7 @@
+<launch>
+  <include file="$(find mongodb_store)/launch/mongodb_store.launch">
+    <arg name="db_path" value="$(env HOME)/mongoDB" />
+    <arg name="port" value="62345" />
+  </include>
+  <node name="database_publisher" pkg="koco_nodes" type="database_publisher.py" />
+</launch>

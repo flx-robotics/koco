@@ -1,0 +1,12 @@
+<launch>
+        <arg name="path" value="$(find koco_core_flexbe_states)/test/check_digital_input" />
+        <arg name="test_name" value="check_digital_input" />
+
+        <include file="$(find flexbe_testing)/test/flexbe_rostest.test">
+                <arg name="package" value="$(arg test_name)" />
+                <arg name="testcases" value="
+                        $(arg path)/check_digital_input_import.yml
+                        $(arg path)/check_digital_input_error.yml
+                " />
+        </include>
+</launch>

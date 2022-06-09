@@ -1,0 +1,4 @@
+path: koco_core_flexbe_states.check_digital_input
+class: CheckDigitalInput
+
+import_only: True

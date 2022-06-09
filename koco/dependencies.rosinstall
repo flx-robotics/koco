@@ -1,0 +1,15 @@
+- git:
+    local-name: koco_msgs
+    uri: git@bitbucket.org:airnamics/koco_msgs.git
+    version: master
+- git:
+    local-name: koco_flexbe_behavior_engine
+    uri: git@bitbucket.org:airnamics/koco_flexbe_behavior_engine.git
+    version: master
+- git:
+    local-name: hrl_kdl
+    uri: https://github.com/gt-ros-pkg/hrl-kdl.git
+- git:
+    local-name: mongodb_store
+    uri: https://github.com/strands-project/mongodb_store.git
+    version: melodic-devel

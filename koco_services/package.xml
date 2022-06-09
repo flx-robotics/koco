@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>koco_services</name>
+  <version>1.1.0</version>
+  <description>The koco_services package</description>
+
+  <author email="robert.bevec@airnamics.com">Robert Bevec</author>
+  <author email="timotej.gaspar@airnamics.com">Timotej Gaspar</author>
+  <maintainer email="timotej.gaspar@airnamics.com">Timotej Gaspar</maintainer>
+
+  <license>BSD</license>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>koco_msgs</exec_depend>
+  <exec_depend>mongodb_store</exec_depend>
+  <exec_depend>moveit_commander</exec_depend>
+  <exec_depend>moveit_msgs</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+
+  <test_depend>roslint</test_depend>
+
+</package>

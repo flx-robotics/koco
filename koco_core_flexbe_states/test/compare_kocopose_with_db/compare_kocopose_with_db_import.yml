@@ -1,0 +1,4 @@
+path: koco_core_flexbe_states.compare_kocopose_with_db
+class: CompareKocoPoseWithDB
+
+import_only: True

@@ -1,0 +1,4 @@
+path: koco_core_flexbe_states.wait_for_machine_status
+class: WaitForMachineStatus
+
+import_only: True

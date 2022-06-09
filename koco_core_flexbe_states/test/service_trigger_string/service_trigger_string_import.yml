@@ -1,0 +1,4 @@
+path: koco_core_flexbe_states.service_trigger_string
+class: ServiceTriggerString
+
+import_only: True

@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+    <test test-name="test_goal_proximity_checks" pkg="koco_utils" type="test_goal_proximity_checks.py" time-limit="10.0" />
+</launch>

@@ -1,0 +1,11 @@
+<launch>
+        <arg name="path" value="$(find koco_core_flexbe_states)/test/service_trigger_string" />
+        <arg name="test_name" value="service_trigger_string" />
+
+        <include file="$(find flexbe_testing)/test/flexbe_rostest.test">
+                <arg name="package" value="$(arg test_name)" />
+                <arg name="testcases" value="
+                        $(arg path)/service_trigger_string_import.yml
+                " />
+        </include>
+</launch>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="koco_nodes" type="multiple_counters_monitor.py" name="counters_monitor" output="screen" >
+        <rosparam command="load" file="$(find koco_nodes)/config/counters.yaml" />
+    </node>
+</launch>

@@ -1,0 +1,11 @@
+<launch>
+        <arg name="path" value="$(find koco_core_flexbe_states)/test/wait_for_machine_status" />
+        <arg name="test_name" value="wait_for_machine_status" />
+
+        <include file="$(find flexbe_testing)/test/flexbe_rostest.test">
+                <arg name="package" value="$(arg test_name)" />
+                <arg name="testcases" value="
+                        $(arg path)/wait_for_machine_status_import.yml
+                " />
+        </include>
+</launch>

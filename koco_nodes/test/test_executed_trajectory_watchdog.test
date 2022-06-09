@@ -1,0 +1,8 @@
+<launch>
+
+<node name="executed_trajectory_watchdog" pkg="koco_nodes" type="executed_trajectory_watchdog.py" respawn="True"/>
+<!-- Publish a dummy joint message for the watchdog to start properly -->
+<node pkg="rostopic" type="rostopic" name="rostopic" args="pub /joint_states sensor_msgs/JointState 'position: []'"/>
+<test test-name="test_traj_watch dog" pkg="koco_nodes" type="test_executed_trajectory_watchdog.py" name="test_traj_watchdog" />
+
+</launch>

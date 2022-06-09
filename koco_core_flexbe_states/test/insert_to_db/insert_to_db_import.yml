@@ -1,0 +1,4 @@
+path: koco_core_flexbe_states.insert_to_db
+class: InsertToDb
+
+import_only: True

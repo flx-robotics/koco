@@ -1,0 +1,16 @@
+<launch>
+        <include file="$(find koco_core_flexbe_states)/test/check_digital_input/check_digital_input_tests.launch" />
+        <include file="$(find koco_core_flexbe_states)/test/compare_kocopose_with_db/compare_kocopose_with_db_tests.launch" />
+        <include file="$(find koco_core_flexbe_states)/test/insert_to_db/insert_to_db_tests.launch" />
+        <include file="$(find koco_core_flexbe_states)/test/move_joints_from_db/move_joints_from_db_tests.launch" />
+        <include file="$(find koco_core_flexbe_states)/test/move_sequence_action_state/move_sequence_action_state_tests.launch" />
+        <include file="$(find koco_core_flexbe_states)/test/movej_action_state/movej_action_state_tests.launch" />
+        <include file="$(find koco_core_flexbe_states)/test/movel_action_state/movel_action_state_tests.launch" />
+        <include file="$(find koco_core_flexbe_states)/test/seq_move_joints_from_db/seq_move_joints_from_db_tests.launch" />
+        <include file="$(find koco_core_flexbe_states)/test/seq_movej_action_state/seq_movej_action_state_tests.launch" />
+        <include file="$(find koco_core_flexbe_states)/test/seq_movel_action_state/seq_movel_action_state_tests.launch" />
+        <include file="$(find koco_core_flexbe_states)/test/service_set_outputs/service_set_outputs_tests.launch" />
+        <include file="$(find koco_core_flexbe_states)/test/service_trigger_string/service_trigger_string_tests.launch" />
+        <include file="$(find koco_core_flexbe_states)/test/wait_for_digital_input/wait_for_digital_input_tests.launch" />
+        <include file="$(find koco_core_flexbe_states)/test/wait_for_machine_status/wait_for_machine_status_tests.launch" />
+</launch>

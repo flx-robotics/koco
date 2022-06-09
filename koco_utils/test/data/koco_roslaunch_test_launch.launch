@@ -1,0 +1,14 @@
+<launch>
+    <arg name="select_first" default="true" />
+
+    <group if="$(arg select_first)">
+        <node name="random_node_1" pkg="topic_tools" type="relay" args="blabla lol" />
+        <node name="random_node_2" pkg="topic_tools" type="relay" args="blabla2 lol2" />
+    </group>
+
+    <group unless="$(arg select_first)">
+        <node name="random_node_3" pkg="topic_tools" type="relay" args="blabla3 lol3" />
+        <node name="random_node_4" pkg="topic_tools" type="relay" args="blabla4 lol4" />
+    </group>
+
+</launch>

@@ -1,0 +1,4 @@
+path: koco_core_flexbe_states.seq_movej_action_state
+class: SequenceMovejActionState
+
+import_only: True

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>koco_utils</name>
+  <version>1.1.0</version>
+  <description>The koco_utils package</description>
+
+  <author email="timotej.gaspar@airnamics.com">Timotej Gaspar</author>
+  <author email="blaz.potokar@airnamics.com">Blaz Potokar</author>
+  <author email="gal.gorjup@airnamics.com">Gal Gorjup</author>
+  <author email="filip.grcar@airnamics.com">Filip Grcar</author>
+  <maintainer email="timotej.gaspar@airnamics.com">Timotej Gaspar</maintainer>
+  <maintainer email="blaz.potokar@airnamics.com">Blaz Potokar</maintainer>
+  <maintainer email="gal.gorjup@airnamics.com">Gal Gorjup</maintainer>
+  <maintainer email="filip.grcar@airnamics.com">Filip Grcar</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>actionlib</exec_depend>
+  <exec_depend>actionlib_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>industrial_msgs</exec_depend>
+  <exec_depend>koco_msgs</exec_depend>
+  <exec_depend>mongodb_store</exec_depend>
+  <exec_depend>moveit_msgs</exec_depend>
+  <exec_depend>pykdl_utils</exec_depend>
+  <exec_depend>python-numpy</exec_depend>
+  <exec_depend>python-psutil</exec_depend>
+  <exec_depend>python3-psutil</exec_depend>
+  <exec_depend condition="$ROS_PYTHON_VERSION == 2">python-pymongo</exec_depend>
+  <exec_depend condition="$ROS_PYTHON_VERSION == 3">python3-pymongo</exec_depend>
+  <exec_depend condition="$ROS_PYTHON_VERSION == 2">python-rospkg</exec_depend>
+  <exec_depend condition="$ROS_PYTHON_VERSION == 3">python3-rospkg</exec_depend>
+  <exec_depend condition="$ROS_PYTHON_VERSION == 2">python-yaml</exec_depend>
+  <exec_depend condition="$ROS_PYTHON_VERSION == 3">python3-yaml</exec_depend>
+  <exec_depend>rosgraph_msgs</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>rospy_message_converter</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>shape_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>std_srvs</exec_depend>
+  <exec_depend>tf2_geometry_msgs</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>tf</exec_depend>
+
+  <test_depend>roslint</test_depend>
+  <test_depend>rostest</test_depend>
+
+</package>

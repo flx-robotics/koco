@@ -1,0 +1,3 @@
+<launch>
+    <node name="exiting_node" pkg="koco_utils" type="exiting_node.py" output="screen" />
+</launch>

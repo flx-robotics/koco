@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- This is an example launchfile for starting the plan and service node -->
+    <arg name="plan_config" default="$(find koco_services)/config/plan_and_store_default.yaml"/>
+
+    <node name="plan_and_store" pkg="koco_services" type="plan_and_store.py" output="screen" respawn="true" >
+        <rosparam command="load" file="$(arg plan_config)"/>
+    </node>
+</launch>

@@ -1,0 +1,11 @@
+<launch>
+        <arg name="path" value="$(find koco_core_flexbe_states)/test/insert_to_db" />
+        <arg name="test_name" value="insert_to_db" />
+
+        <include file="$(find flexbe_testing)/test/flexbe_rostest.test">
+                <arg name="package" value="$(arg test_name)" />
+                <arg name="testcases" value="
+                        $(arg path)/insert_to_db_import.yml
+                " />
+        </include>
+</launch>

@@ -1,0 +1,9 @@
+path: koco_core_flexbe_states.wait_for_digital_input
+class: WaitForDigitalInput
+
+params:
+  topic: "/non_existing_topic"
+  input_address: 1
+  desired_state: True
+
+outcome: 'error'

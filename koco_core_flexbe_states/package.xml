@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>koco_core_flexbe_states</name>
+  <version>1.1.0</version>
+  <description>
+      The koco_core_flexbe_states includes all the core states to operate with the KoCo system.
+  </description>
+
+  <author email="timotej.gaspar@airnamics.com">Timotej Gaspar</author>
+  <author email="filip.grcar@airnamics.com">Filip Grcar</author>
+  <maintainer email="filip.grcar@airnamics.com">Filip Grcar</maintainer>
+  <maintainer email="timotej.gaspar@airnamics.com">Timotej Gaspar</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>flexbe_core</exec_depend>
+  <exec_depend>python-numpy</exec_depend>
+
+  <exec_depend>actionlib_msgs</exec_depend>
+  <exec_depend>koco_msgs</exec_depend>
+  <exec_depend>koco_ui_msgs</exec_depend>
+  <exec_depend>koco_utils</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>rostopic</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>std_srvs</exec_depend>
+  <exec_depend>tf</exec_depend>
+
+  <test_depend>roslint</test_depend>
+  <test_depend>rostest</test_depend>
+  <test_depend>flexbe_testing</test_depend>
+
+  <export>
+    <flexbe_states />
+  </export>
+</package>

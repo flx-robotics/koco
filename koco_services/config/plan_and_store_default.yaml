@@ -1,0 +1,5 @@
+planner_id: RRTstarkConfigDefault
+planning_time: 2
+attempts: 5
+initial_jiggle: 0.1
+jiggle_step: 0.05

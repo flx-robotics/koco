@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+    <test test-name="import_test" pkg="koco_utils" type="import_tests.py" time-limit="10.0" />
+</launch>

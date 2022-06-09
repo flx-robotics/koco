@@ -1,0 +1,4 @@
+path: koco_core_flexbe_states.movel_action_state
+class: MovelActionState
+
+import_only: True

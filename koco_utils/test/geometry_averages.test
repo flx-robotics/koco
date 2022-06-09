@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+    <test test-name="test_geometry_averages" pkg="koco_utils" type="test_geometry_averages.py" time-limit="10.0" />
+</launch>

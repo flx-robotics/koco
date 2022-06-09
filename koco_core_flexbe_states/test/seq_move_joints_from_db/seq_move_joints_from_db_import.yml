@@ -1,0 +1,4 @@
+path: koco_core_flexbe_states.seq_move_joints_from_db
+class: SeqMoveJointsFromDb
+
+import_only: True

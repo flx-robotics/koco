@@ -1,0 +1,4 @@
+path: koco_core_flexbe_states.seq_movel_action_state
+class: SequenceMovelActionState
+
+import_only: True

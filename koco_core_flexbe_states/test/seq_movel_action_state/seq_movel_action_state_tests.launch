@@ -1,0 +1,11 @@
+<launch>
+        <arg name="path" value="$(find koco_core_flexbe_states)/test/seq_movel_action_state" />
+        <arg name="test_name" value="seq_movel_action_state" />
+
+        <include file="$(find flexbe_testing)/test/flexbe_rostest.test">
+                <arg name="package" value="$(arg test_name)" />
+                <arg name="testcases" value="
+                        $(arg path)/seq_movel_action_state_import.yml
+                " />
+        </include>
+</launch>

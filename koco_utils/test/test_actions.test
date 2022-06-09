@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="core_actions" pkg="koco_utils" type="dummy_action_servers.py"/>
+    <!-- Numbers in the name ensure the execution sequence  -->
+    <test test-name="test_1_srv_rdy" pkg="koco_utils" type="test_move_actions.py" args="test-server-ready" retry="3"/>
+    <test test-name="test_2_gl_prs" pkg="koco_utils" type="test_move_actions.py" args="test-goal-parsing" retry="0"/>
+</launch>
